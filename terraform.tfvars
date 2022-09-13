@@ -1,18 +1,11 @@
-// AWS credentials
-aws_access_key        = "AKIA3CBRRBKFYGVBABVK"
-aws_secret_access_key = "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"
-aws_region            = "us-east-1"
-
 // vCenter credentials
-vsphere_vcenter_user     = "administrator@vsphere.local"
-vsphere_vcenter_password = "Password@123"
-vsphere_vcenter_server   = "10.10.0.145"
-vsphere_vcenter_host_150 = "10.10.0.150"
-//vsphere_vcenter_host_160 = "10.10.0.160"
-datacenter = "my_datacenter"
-datastore  = "datastore01-150"
-cluster    = "compute-cluster"
-// pg_network = "VM Network"
-pg_new_network = "dev-portgroup"
-iso_file       = "ISOs/lubuntu-22.04-desktop-amd64.iso"
+vsphere_vcenter_user     = "<<Enter vCenter user here>>"
+vsphere_vcenter_password = "<<Enter vCenter password here>>"
+vsphere_vcenter_server   = "<<Enter vCenter server IP/FQDN here>>"
+vsphere_vcenter_host_150 = "<<Enter ESXi Host server IP/FQDN here>>"
+datacenter = "<<Enter vCenter datacenter name here>>"
+datastore  = "<<Enter vCenter ESXi datastore name here>>"
+cluster    = "<<Enter vCenter Compute cluster name here>>"
+pg_network = "<<Enter the default port group here... Eg.: VM Network>>"
+iso_file       = "<<path-to-iso/ubuntu.iso>>"
 
